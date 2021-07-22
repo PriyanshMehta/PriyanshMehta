@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyansh Mehta|Web Developer</title>
+    
+    <link rel="icon" href="image/favion-1.png" type="image/x-icon"> 
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark sticky-top">
+        <!-- takes the full with of the viewport and shrinks and expands accordingly -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="image/favion-1.png" alt="logo-image"></a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-light navbar-toggler-icon">
+                    <i class="fas fa-bars sticky-top" style="color:#08fdd8; font-size:28px;"></i>
+                </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <!-- ml-auto so that on clicking toggle button text opens not in the center but our desired option -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link cool-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link cool-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill" class="nav-link cool-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link cool-link">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link cool-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container-fluid text-center home padding-home" id="home">
+        <h1 class="display-5">I am a Web Developer and a Programmer.</h1>
+        <p>I love to drink filter Coffee and brew Code.</p>
+        <img src="image/me.png" alt="me">
+    </div>
+
+    <!-- About Me -->
+    <div class="container-fluid text-center about-me row" id="about" style="margin-right: 0px;margin-left: 0px;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6  col-xl-6  mx-auto">
+            <h2>Hey! I am Priyansh, glad to meet you.</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container-fluid text-center skills row mx-auto" id="skill">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 design">
+            <i class="fas fa-drafting-compass"></i>
+            <h4>Designer</h4>
+            <p>I design stuff for my College Clubs and for my poetry page.</p>
+            <h5>Design Tools:</h5>
+            <ul>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Premier Pro</li>
+                <li>Adobe Illustrator</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 frontend">
+            <i class="far fa-file-code"></i>
+            <h4>Front-end Developer</h4>
+            <p>I like to structure and code, beautiful responsive websites.</p>
+            <h5>Languages I know:</h5>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>Javasript</li>
+                <li>React.js</li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 backend">
+            <i class="fas fa-database"></i>
+            <h4>Back-end Developer</h4>
+            <p>I love to make web applications or websites that can interact.</p>
+            <h5>Languages I know:</h5>
+            <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+    </div>
+    <!-- have to sort skills wala section -->
+
+    <!-- Projects -->
+    <div class="project container-fluid text-center" id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects, I have worked on!</p>
+        <div class="row mx-auto cont">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <img src="image/chatbot.jpg" class="cb" alt="chatbot-image">
+                <h4>Realtime Chatbot Application</h4>
+                <p>It is a medium for users to interact in form of text messages. The authentication process is through Google account or Email and then the user has the option to create or join a room.</p>
+                <a class="btn btn-outline-info" href="https://github.com/Garvit-Singh/Celebal-Project">Code</a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <img src="image/chatbot.jpg" class="cb" alt="chatbot-image">
+                <h4>Realtime Chatbot Application</h4>
+                <p>It is a medium for users to interact in form of text messages. The authentication process is through Google account or Email and then the user has the option to create or join a room.</p>
+                <a class="btn btn-outline-info" href="https://github.com/Garvit-Singh/Celebal-Project">Code</a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <img src="image/chatbot.jpg" class="cb" alt="chatbot-image">
+                <h4>Realtime Chatbot Application</h4>
+                <p>It is a medium for users to interact in form of text messages. The authentication process is through Google account or Email and then the user has the option to create or join a room.</p>
+                <a class="btn btn-outline-info" href="https://github.com/Garvit-Singh/Celebal-Project">Code</a>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Contact -->
+    <div class="container-fluid text-center contact-info" id="contact">
+        <h3>Learning and Creating</h3>
+        <h3 class="btm-spc">Everyday.</h3>
+        <a target="blank" class="btn btn-outline-info" href="https://github.com/PriyanshMehta"><i class="fab fa-github"></i></a>
+        <a target="blank" class="btn btn-outline-info" href="https://www.instagram.com/_priyanshmehta/"><i class="fab fa-instagram"></i></a>
+        <a target="blank" class="btn btn-outline-info" href="https://www.linkedin.com/in/priyansh-mehta-432140193/"><i class="fab fa-linkedin"></i></a>
+        <a target="blank" class="btn btn-outline-info" href="https://www.facebook.com/priyansh.mehta.1650"><i class="fab fa-facebook"></i></a>
+        <a target="blank" class="btn btn-outline-info" href="mailto: f20190142@goa.bits-pilani.ac.in"><i class="fas fa-envelope"></i></a>
+        <p class="mb-0">Priyansh Mehta <i class="far fa-copyright"></i> 2021</p>
+    </div>
+    
+</body>
+</html>
